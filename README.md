@@ -3,7 +3,8 @@
 Repo for the `GitHub Actions Fundamentals` training.
 
 ## 👉 Objectives
-- Test to run 
+- Test to run
+- Test with skip ci
 - Understand the __basic components__ and vocabulary of GitHub Actions
 - Understand the __YAML__ syntax (scalar types, quotes, literal blocks, maps, and sequences)
 - Understand the __workflow syntax__ and how to write workflows using intellisense
