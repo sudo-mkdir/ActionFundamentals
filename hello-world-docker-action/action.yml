@@ -1,0 +1,18 @@
+name: "Hello, world!"
+description: "Just sample action, not workflow"
+
+inputs:
+  name-of-the-passenger:
+    description: "var name tells you everything"
+    required: true
+    default: "world"
+
+outputs:
+  current_time:
+    description: "Just a timestamp"
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.name-of-the-passenger }}
