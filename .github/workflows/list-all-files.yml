@@ -17,14 +17,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Running ${{ github.event_name }}
+          echo "Running ${{ github.event_name }}"
           echo "On branch: ${{ github.ref }}"
 
       - uses: actions/checkout@v4
 
       - name: List all files
         run: |
-          echo "Listing all files in repo ${{ github.repository }}
+          echo "Listing all files in repo ${{ github.repository }}"
           tree
 
 
