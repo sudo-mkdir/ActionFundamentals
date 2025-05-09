@@ -44,6 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: Load-Test
     if: github.event_name == 'workflow_dispatch'
+    needs: Build
     steps:
       - run: |
           echo "Load testing"
